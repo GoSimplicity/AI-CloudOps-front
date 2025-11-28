@@ -1,31 +1,22 @@
-import { GithubOutlined } from '@ant-design/icons';
 import { DefaultFooter } from '@ant-design/pro-components';
 import React from 'react';
 
 const Footer: React.FC = () => {
   return (
     <DefaultFooter
-      style={{
-        background: 'none',
-      }}
-      copyright="Powered by Ant Desgin"
+      style={{ background: 'none' }}
+      copyright="AI CloudOps"
       links={[
         {
-          key: 'Ant Design Pro',
-          title: 'Ant Design Pro',
-          href: 'https://pro.ant.design',
+          key: 'docs',
+          title: '项目文档',
+          href: 'https://example.com/docs',
           blankTarget: true,
         },
         {
-          key: 'github',
-          title: <GithubOutlined />,
-          href: 'https://github.com/ant-design/ant-design-pro',
-          blankTarget: true,
-        },
-        {
-          key: 'Ant Design',
-          title: 'Ant Design',
-          href: 'https://ant.design',
+          key: 'status',
+          title: '系统状态',
+          href: 'https://example.com/status',
           blankTarget: true,
         },
       ]}
